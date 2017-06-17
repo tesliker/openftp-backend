@@ -1,0 +1,20 @@
+uuid: d8893991-581c-4694-a91b-118bded57ab3
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_port
+field_name: field_port
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

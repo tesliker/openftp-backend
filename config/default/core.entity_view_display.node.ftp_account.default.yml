@@ -1,0 +1,54 @@
+uuid: 4a86a929-95aa-4a31-8454-394d2162947e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.ftp_account.field_host
+    - field.field.node.ftp_account.field_password
+    - field.field.node.ftp_account.field_port
+    - field.field.node.ftp_account.field_username
+    - node.type.ftp_account
+  module:
+    - user
+id: node.ftp_account.default
+targetEntityType: node
+bundle: ftp_account
+mode: default
+content:
+  field_host:
+    weight: 103
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_password:
+    weight: 105
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_port:
+    weight: 106
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_username:
+    weight: 104
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

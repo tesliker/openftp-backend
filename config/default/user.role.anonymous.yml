@@ -1,0 +1,20 @@
+uuid: 8fdb49d2-97ce-4d6d-aa08-e8c0f7d785fa
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
+id: anonymous
+label: 'Anonymous user'
+weight: 0
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access site-wide contact form'
+  - 'add simple_oauth entities'
+  - 'delete own simple_oauth entities'
+  - 'search content'
+  - 'update own simple_oauth entities'
+  - 'use text format restricted_html'
+  - 'view own simple_oauth entities'

@@ -1,0 +1,23 @@
+uuid: b725f06a-4426-4103-b3b1-60483d55c14f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_port
+    - node.type.ftp_account
+id: node.ftp_account.field_port
+field_name: field_port
+entity_type: node
+bundle: ftp_account
+label: Port
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

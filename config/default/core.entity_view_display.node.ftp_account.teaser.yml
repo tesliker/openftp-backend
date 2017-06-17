@@ -1,0 +1,26 @@
+uuid: 9ac4073b-ccd8-45f7-a17c-5c0dedb1993c
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.ftp_account.field_host
+    - field.field.node.ftp_account.field_password
+    - field.field.node.ftp_account.field_port
+    - field.field.node.ftp_account.field_username
+    - node.type.ftp_account
+  module:
+    - user
+id: node.ftp_account.teaser
+targetEntityType: node
+bundle: ftp_account
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_host: true
+  field_password: true
+  field_port: true
+  field_username: true
